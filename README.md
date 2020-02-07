@@ -43,7 +43,7 @@ public protocol PreviewProvider : _PreviewProvider
 #if canImport(SwiftUI) && DEBUG
 import SwiftUI
 @available(iOS 13.0, *)
-struct LabelCollectionView_Preview: PreviewProvider {
+struct Label_Preview: PreviewProvider {
     static var previews: some View {
         UIViewPreview {
             let label = UILabel()

@@ -1,6 +1,7 @@
-#if canImport(UIKit) && canImport(SwiftUI) && DEBUG
+#if canImport(SwiftUI) && DEBUG
     import SwiftUI
 
+    @available(iOS 13.0, *)
     public struct UIViewPreview<View: UIView>: UIViewRepresentable {
         public let view: View
         public init(_ builder: @escaping () -> View) {
@@ -16,6 +17,7 @@
         }
     }
 
+    @available(iOS 13.0, *)
     public struct UIViewControllerPreview<ViewController: UIViewController>: UIViewControllerRepresentable {
         public let viewController: ViewController
 
