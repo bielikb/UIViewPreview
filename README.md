@@ -1,4 +1,4 @@
-_Matt Thompson's_ beautiful gist for PreviewProvider turned into Swift Package.
+_Mattt's_ beautiful gist to gain SwiftUI previews for your UIViews turned into Swift Package.
 
 # UIViewPreview Swift Package
 
