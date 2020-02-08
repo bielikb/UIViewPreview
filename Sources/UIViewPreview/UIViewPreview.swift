@@ -28,6 +28,9 @@
             viewController
         }
 
+        @available(iOS 13.0, tvOS 13.0, *)
+        @available(OSX, unavailable)
+        @available(watchOS, unavailable)
         public func updateUIViewController(_ uiViewController: ViewController, context: UIViewControllerRepresentableContext<UIViewControllerPreview<ViewController>>) {
             return
         }

@@ -15,6 +15,7 @@ Please read more about the use-cases for `UIViewPreview` in the `NSHipster` blog
 * Xcode 11.0 and above
 * Swift 5.1 and above
 * iOS 13.0 and above
+* tvOS 13.0 and above
 
 ## Installation
 ### Swift Package Manager
@@ -23,8 +24,7 @@ Add
 `.package(url: "https://github.com/bielikb/UIViewPreview.git", from: "1.0.0")`
 to your `Package.swift` file's `dependencies`.
 
-If youre using Xcode 11.0 add this Swift Package to your target(s) using Xcode.
-
+If youre using Xcode 11.0 add `UIViewPreview` Swift Package to your target(s) using Xcode.
 
 ## PreviewProvider (Official Apple Docs)
 
@@ -40,6 +40,8 @@ public protocol PreviewProvider : _PreviewProvider
 ## Example:
 
 ```
+import UIViewPreview
+
 #if canImport(SwiftUI) && DEBUG
 import SwiftUI
 @available(iOS 13.0, *)
