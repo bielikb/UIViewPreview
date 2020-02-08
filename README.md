@@ -1,3 +1,11 @@
+<p>
+<img src="https://img.shields.io/badge/Swift-5.1-orange.svg" />
+<a href="https://swift.org/package-manager">
+    <img src="https://img.shields.io/badge/swiftpm-compatible-brightgreen.svg?style=flat" alt="Swift Package Manager" />
+</a>
+ <img src="https://img.shields.io/badge/platforms-iOS_13.0_+%20tvOS_13.0-brightgreen.svg?style=flat" alt="iOS 13.0 + tvOS 13.0" />
+</p>
+
 _Mattt's_ beautiful gist to gain SwiftUI previews for your UIViews turned into Swift Package.
 
 # UIViewPreview Swift Package
